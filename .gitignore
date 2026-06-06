@@ -1,0 +1,9 @@
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.DS_Store
+
+# Generated artifacts (reproducible via `python pipeline.py`).
+data/
+output/*.xlsx
+# Charts under output/charts/ are committed so the README can display them.
